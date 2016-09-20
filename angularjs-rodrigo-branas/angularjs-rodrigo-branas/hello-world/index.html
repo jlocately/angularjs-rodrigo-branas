@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="helloWorld">
+<head>
+    <title>Hello Word</title>
+</head>
+<body>
+    <div ng-controller="helloWorldCtrl">
+        {{message}}
+    </div>
+
+    <script src="../content/js/angular.min.js"></script>
+    <script>
+        angular.module("helloWorld", [])
+        .controller("helloWorldCtrl", function ($scope) {
+            $scope.message = "Hello World!";
+        });
+    </script>
+</body>
+</html>
