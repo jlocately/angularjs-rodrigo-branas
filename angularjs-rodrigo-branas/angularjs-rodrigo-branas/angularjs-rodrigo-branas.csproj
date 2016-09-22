@@ -90,6 +90,7 @@
     <Content Include="content\js\startup.js" />
     <Content Include="content\js\toastr.min.js" />
     <Content Include="hello-world\index.html" />
+    <Content Include="lista-telefonica\index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
